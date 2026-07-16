@@ -1,4 +1,8 @@
-/* Extracted from create!!.html */
+/* ===========================================
+   CREATE!!👌
+   Modern Glassmorphism Theme
+=========================================== */
+
 :root{
 
 --bg:#050816;
@@ -314,7 +318,6 @@ font-size:1.7rem;
 cursor:pointer;
 
 }
-
 .hero{
 
 min-height:100vh;
@@ -542,7 +545,7 @@ font-size:1.35rem;
 
 }
 /* ==========================================
-    ABOUT SECTION
+   ABOUT SECTION
 ========================================== */
 
 .about-grid{
@@ -904,7 +907,6 @@ color:white;
 font-weight:600;
 
 }
-
 .contact-wrapper{
 
 display:grid;
@@ -1139,6 +1141,71 @@ opacity:1;
 transform:translate(-700px,700px);
 
 opacity:0;
+
+}
+
+}
+.blob{
+
+position:fixed;
+
+width:500px;
+
+height:500px;
+
+border-radius:50%;
+
+filter:blur(120px);
+
+opacity:.25;
+
+pointer-events:none;
+
+z-index:-4;
+
+animation:blobMove 16s infinite alternate;
+
+}
+
+.blob.one{
+
+background:#4e89ff;
+
+top:-150px;
+
+left:-150px;
+
+}
+
+.blob.two{
+
+background:#7b61ff;
+
+bottom:-180px;
+
+right:-180px;
+
+animation-delay:4s;
+
+}
+
+@keyframes blobMove{
+
+0%{
+
+transform:translate(0,0) scale(1);
+
+}
+
+50%{
+
+transform:translate(100px,-50px) scale(1.2);
+
+}
+
+100%{
+
+transform:translate(-120px,80px) scale(.9);
 
 }
 
@@ -1385,72 +1452,6 @@ transform:scale(1.04);
 100%{
 
 transform:scale(1);
-
-}
-
-}
-
-.blob{
-
-position:fixed;
-
-width:500px;
-
-height:500px;
-
-border-radius:50%;
-
-filter:blur(120px);
-
-opacity:.25;
-
-pointer-events:none;
-
-z-index:-4;
-
-animation:blobMove 16s infinite alternate;
-
-}
-
-.blob.one{
-
-background:#4e89ff;
-
-top:-150px;
-
-left:-150px;
-
-}
-
-.blob.two{
-
-background:#7b61ff;
-
-bottom:-180px;
-
-right:-180px;
-
-animation-delay:4s;
-
-}
-
-@keyframes blobMove{
-
-0%{
-
-transform:translate(0,0) scale(1);
-
-}
-
-50%{
-
-transform:translate(100px,-50px) scale(1.2);
-
-}
-
-100%{
-
-transform:translate(-120px,80px) scale(.9);
 
 }
 
