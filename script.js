@@ -795,8 +795,6 @@ progress.style.width=percent+"%";
 // ADVANCED THREE.JS SCENE
 // =======================================
 
-const scene = new THREE.Scene();
-
 scene.fog = new THREE.FogExp2(0x050816,0.015);
 
 const camera = new THREE.PerspectiveCamera(
