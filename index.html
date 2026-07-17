@@ -1,406 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Create!!👌 | Software & AI Solutions</title>
-
-<meta name="description"
-content="Create!! is a modern software company specializing in Web Development, AI, Automation, Power BI, UI/UX Design and Enterprise Solutions.">
-
-<meta name="theme-color" content="#050816">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHELGARD | Cinematic Luxury Real Estate</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        luxury: {
+                            gold: '#D4AF37',
+                            goldLight: '#F3E5AB',
+                            dark: '#070708',
+                            darkGray: '#121214'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-  
-<div class="blob one"></div>
-<div class="blob two"></div>
-
-<!-- ================= LOADER ================= -->
-
-<div id="loader">
-
-<div class="loader-logo">
-
-<h1>Create<span>!!👌</span></h1>
-
-<div class="loader-bar">
-
-<div class="loader-progress"></div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ================= PARTICLE BACKGROUND ================= -->
-
-<div id="particles-js"></div>
-
-<!-- ================= 3D CANVAS ================= -->
-
-<canvas id="bg"></canvas>
-
-<!-- ================= NAVBAR ================= -->
-
-<header>
-
-<nav class="navbar">
-
-<a href="#" class="logo">
-
-Create<span>!!👌</span>
-
-</a>
-
-<ul class="nav-links">
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#services">Services</a></li>
-
-<li><a href="#portfolio">Portfolio</a></li>
-
-<li><a href="#team">Team</a></li>
-
-<li><a href="#pricing">Pricing</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-<div class="menu-btn">
-
-<i class="fa-solid fa-bars"></i>
-
-</div>
-
-</nav>
-
-</header>
-
-<!-- ================= HERO ================= -->
-
-<section id="home" class="hero">
-
-<div class="hero-left">
-
-<div class="hero-badge">
-
-Software Company
-
-</div>
-
-<h1>
-
-Building
-
-<span class="gradient">
-
-Next Generation
-
-</span>
-
-Digital Experiences
-
-</h1>
-
-<p>
-
-We design and develop powerful websites, AI solutions,
-automation systems, Power BI dashboards, enterprise software,
-and immersive digital experiences.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="#contact" class="btn-primary">
-
-Start Your Project
-
-</a>
-
-<a href="#portfolio" class="btn-secondary">
-
-View Portfolio
-
-</a>
-
-</div>
-
-<div class="hero-stats">
-
-<div>
-
-<h2>150+</h2>
-
-<p>Projects</p>
-
-</div>
-
-<div>
-
-<h2>40+</h2>
-
-<p>Clients</p>
-
-</div>
-
-<div>
-
-<h2>99%</h2>
-
-<p>Satisfaction</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="hero-right">
-
-<div class="floating-card">
-
-<i class="fa-solid fa-code"></i>
-
-<h3>Web Development</h3>
-
-</div>
-
-<div class="floating-card">
-
-<i class="fa-solid fa-robot"></i>
-
-<h3>Artificial Intelligence</h3>
-
-</div>
-
-<div class="floating-card">
-
-<i class="fa-solid fa-chart-line"></i>
-
-<h3>Power BI</h3>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about">
-
-<div class="section-title">
-
-<h2>About Create!!</h2>
-
-<p>Innovation meets creativity.</p>
-
-</div>
-
-<div class="about-grid">
-
-<div class="about-image">
-
-<div class="glass-box">
-
-<h1>Create</h1>
-
-</div>
-
-</div>
-
-<div class="about-text">
-
-<h3>
-
-We Build Modern Software.
-
-</h3>
-
-<p>
-
-Create!! is a technology company focused on premium
-software engineering, AI, automation, dashboards,
-mobile apps and web applications.
-
-</p>
-
-<div class="features">
-
-<div>
-
-<i class="fa-solid fa-check"></i>
-
-Modern UI
-
-</div>
-
-<div>
-
-<i class="fa-solid fa-check"></i>
-
-AI Integration
-
-</div>
-
-<div>
-
-<i class="fa-solid fa-check"></i>
-
-3D Experiences
-
-</div>
-
-<div>
-
-<i class="fa-solid fa-check"></i>
-
-Enterprise Software
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= SERVICES ================= -->
-
-<section id="services">
-
-<div class="section-title">
-
-<h2>Our Services</h2>
-
-</div>
-
-<div class="services-grid">
-
-<div class="service-card">
-
-<i class="fa-solid fa-globe"></i>
-
-<h3>Web Development</h3>
-
-<p>Modern responsive websites with premium animations.</p>
-
-</div>
-
-<div class="service-card">
-
-<i class="fa-solid fa-brain"></i>
-
-<h3>Artificial Intelligence</h3>
-
-<p>AI-powered systems and automation solutions.</p>
-
-</div>
-
-<div class="service-card">
-
-<i class="fa-solid fa-mobile-screen"></i>
-
-<h3>App Development</h3>
-
-<p>Android & iOS applications built for performance.</p>
-
-</div>
-
-<div class="service-card">
-
-<i class="fa-solid fa-chart-simple"></i>
-
-<h3>Power BI</h3>
-
-<p>Professional dashboards and business analytics.</p>
-
-</div>
-
-<div class="service-card">
-
-<i class="fa-solid fa-cloud"></i>
-
-<h3>Cloud Solutions</h3>
-
-<p>Scalable cloud infrastructure and deployment.</p>
-
-</div>
-
-<div class="service-card">
-
-<i class="fa-solid fa-shield-halved"></i>
-
-<h3>Cyber Security</h3>
-
-<p>Protecting your infrastructure with modern security.</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- Remaining sections -->
-<section id="portfolio"></section>
-
-<section id="team"></section>
-
-<section id="pricing"></section>
-
-<section id="testimonials"></section>
-
-<section id="contact"></section>
-
-<footer>
-
-<h2>Create!!👌</h2>
-
-<p>Designed for the Future.</p>
-
-</footer>
-
-<!-- Libraries -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
-
-<script src="script.js"></script>
-  
-  <button id="topBtn">
-<i class="fa-solid fa-arrow-up"></i>
-    
-</button>
-
+<body class="bg-luxury-dark text-white font-sans overflow-x-hidden antialiased">
+
+    <!-- Cinematic Vignette & Overlay -->
+    <div class="fixed inset-0 pointer-events-none z-40 scanlines opacity-10"></div>
+    <div class="fixed inset-0 pointer-events-none z-40 bg-[radial-gradient(circle_at_center,rgba(0,0,0,0)_40%,rgba(7,7,8,0.9)_100%)]"></div>
+
+    <!-- WebGL Canvas Container -->
+    <div id="canvas-container" class="fixed inset-0 -z-10"></div>
+
+    <!-- Preloader & Audio Trigger -->
+    <div id="intro-overlay" class="fixed inset-0 bg-luxury-dark z-50 flex flex-col justify-center items-center transition-all duration-1000">
+        <div class="text-center max-w-lg px-6">
+            <h1 class="font-cinzel text-4xl md:text-6xl tracking-[0.3em] text-luxury-gold mb-2 uppercase animate-pulse">AETHELGARD</h1>
+            <p class="text-xs md:text-sm tracking-[0.5em] text-gray-400 uppercase mb-12">Timeless Architectural Excellence</p>
+            <div id="load-bar-container" class="w-48 h-[2px] bg-white/10 mx-auto relative overflow-hidden mb-8">
+                <div id="load-bar" class="absolute top-0 left-0 h-full w-0 bg-luxury-gold transition-all duration-300"></div>
+            </div>
+            <button id="enter-btn" class="hidden font-cinzel tracking-[0.4em] text-xs uppercase px-8 py-4 border border-luxury-gold/50 bg-luxury-gold/5 hover:bg-luxury-gold hover:text-luxury-dark transition-all duration-500 rounded backdrop-blur-sm">
+                Enter Experience
+            </button>
+            <p id="load-status" class="text-[10px] tracking-[0.2em] text-gray-500 uppercase mt-4">Loading spatial assets...</p>
+        </div>
+    </div>
+
+    <!-- Audio Control HUD -->
+    <div class="fixed bottom-8 left-8 z-40 flex items-center gap-3 bg-black/40 border border-white/10 px-4 py-2 rounded-full backdrop-blur-md opacity-0 transition-opacity duration-1000" id="audio-hud">
+        <button id="mute-btn" class="w-8 h-8 flex items-center justify-center text-luxury-gold hover:scale-110 transition-transform">
+            <span id="audio-icon">🔊</span>
+        </button>
+        <div class="h-4 w-[1px] bg-white/20"></div>
+        <span class="text-[9px] tracking-widest text-gray-400 uppercase">Ambient Audio Active</span>
+    </div>
+
+    <!-- MAIN UI WRAPPER -->
+    <main id="smooth-wrapper" class="w-full relative opacity-0 transition-opacity duration-1000">
+        <div id="smooth-content">
+
+            <!-- HERO SECTION -->
+            <section id="hero" class="min-h-screen flex flex-col justify-between items-center py-20 px-6 relative">
+                <header class="w-full max-w-7xl flex justify-between items-center z-30">
+                    <span class="font-cinzel text-2xl tracking-[0.2em] text-luxury-gold">A</span>
+                    <nav class="hidden md:flex items-center gap-8 text-[11px] tracking-[0.25em] uppercase text-gray-300">
+                        <a href="#properties" class="hover:text-luxury-gold transition">Properties</a>
+                        <a href="#philosophy" class="hover:text-luxury-gold transition">Philosophy</a>
+                        <a href="#amenities" class="hover:text-luxury-gold transition">Amenities</a>
+                        <a href="#floorplans" class="hover:text-luxury-gold transition">Floor Plans</a>
+                        <a href="#contact" class="hover:text-luxury-gold transition">Inquire</a>
+                    </nav>
+                    <button class="font-cinzel text-[10px] tracking-[0.2em] uppercase px-5 py-2.5 border border-white/20 bg-white/5 backdrop-blur-md rounded hover:border-luxury-gold transition">Menu</button>
+                </header>
+
+                <div class="text-center z-30 max-w-4xl my-auto">
+                    <h2 class="font-cinzel text-5xl md:text-8xl tracking-[0.2em] text-white uppercase leading-none mb-6">
+                        Aethelgard<br><span class="text-luxury-gold text-3xl md:text-5xl tracking-[0.4em]">Residences</span>
+                    </h2>
+                    <p class="text-xs md:text-sm tracking-[0.4em] uppercase text-gray-400 max-w-xl mx-auto leading-relaxed">
+                        An unprecedented architectural masterpiece soaring above the clouds.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center z-30 pointer-events-none">
+                    <span class="text-[9px] tracking-[0.3em] text-luxury-gold uppercase mb-2 animate-bounce">Scroll to Explore</span>
+                    <div class="w-[1px] h-12 bg-gradient-to-b from-luxury-gold to-transparent"></div>
+                </div>
+            </section>
+
+            <!-- PROPERTIES SECTION -->
+            <section id="properties" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="glass-card p-10 md:p-16 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl">
+                        <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Collection</span>
+                        <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-6 uppercase">The Heights of Opulence</h3>
+                        <p class="text-gray-300 text-sm tracking-wide leading-relaxed mb-8">
+                            Suspended 1,200 feet in the atmosphere, each estate features private infinity thermal pools, expansive helipads, and custom smart automation tailored to the biological rhythms of its residents.
+                        </p>
+                        <div class="grid grid-cols-2 gap-6 border-t border-white/10 pt-8">
+                            <div>
+                                <span class="text-[10px] tracking-widest text-gray-400 uppercase">Ceiling Height</span>
+                                <p class="text-xl text-luxury-gold font-cinzel mt-1">24 ft / 7.3 m</p>
+                            </div>
+                            <div>
+                                <span class="text-[10px] tracking-widest text-gray-400 uppercase">Starting From</span>
+                                <p class="text-xl text-luxury-gold font-cinzel mt-1">$48,000,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PHILOSOPHY SECTION -->
+            <section id="philosophy" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full flex flex-col items-end">
+                    <div class="max-w-xl glass-card p-10 md:p-16 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl">
+                        <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Philosophy</span>
+                        <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-6 uppercase">Timeless Architecture</h3>
+                        <p class="text-gray-300 text-sm tracking-wide leading-relaxed mb-6">
+                            "Where earth meets cosmic limits, architecture must transcend utility to become pure, structural art."
+                        </p>
+                        <p class="text-gray-400 text-xs tracking-wider leading-relaxed">
+                            Designed by world-renowned architect Aurelius Vance, Aethelgard is sculpted out of self-healing bio-concrete and structurally reinforced with quantum-woven carbon composites.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPLORER SECTION -->
+            <section id="explorer" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full text-center">
+                    <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Interactive Map</span>
+                    <h3 class="font-cinzel text-4xl md:text-6xl tracking-widest text-white mb-8 uppercase">Property Explorer</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                        <div class="glass-card p-8 rounded-xl border border-white/5 bg-black/30 backdrop-blur-md cursor-pointer hover:border-luxury-gold/50 transition duration-500">
+                            <h4 class="font-cinzel text-lg tracking-widest text-luxury-gold mb-2">Penthouses</h4>
+                            <p class="text-xs text-gray-400 tracking-wider">Floors 90 to 110. Panoramic sky decks.</p>
+                        </div>
+                        <div class="glass-card p-8 rounded-xl border border-white/5 bg-black/30 backdrop-blur-md cursor-pointer hover:border-luxury-gold/50 transition duration-500">
+                            <h4 class="font-cinzel text-lg tracking-widest text-luxury-gold mb-2">Sky Villas</h4>
+                            <p class="text-xs text-gray-400 tracking-wider">Floors 50 to 89. Multi-level garden estates.</p>
+                        </div>
+                        <div class="glass-card p-8 rounded-xl border border-white/5 bg-black/30 backdrop-blur-md cursor-pointer hover:border-luxury-gold/50 transition duration-500">
+                            <h4 class="font-cinzel text-lg tracking-widest text-luxury-gold mb-2">Executive Suites</h4>
+                            <p class="text-xs text-gray-400 tracking-wider">Floors 10 to 49. Minimalist luxury living.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AMENITIES & LIFESTYLE -->
+            <section id="amenities" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="glass-card p-10 rounded-2xl border border-white/5 bg-black/30 backdrop-blur-md">
+                        <span class="text-luxury-gold font-cinzel text-xs uppercase tracking-widest">01 / Wellness</span>
+                        <h4 class="font-cinzel text-2xl tracking-wider text-white mt-4 mb-4 uppercase">Hyperbaric Spa</h4>
+                        <p class="text-xs text-gray-400 tracking-wider leading-relaxed">
+                            Regenerate with customized medical-grade atmosphere control, sensory deprivation therapy pools, and liquid gold thermal massage treatments.
+                        </p>
+                    </div>
+                    <div class="glass-card p-10 rounded-2xl border border-white/5 bg-black/30 backdrop-blur-md">
+                        <span class="text-luxury-gold font-cinzel text-xs uppercase tracking-widest">02 / Transit</span>
+                        <h4 class="font-cinzel text-2xl tracking-wider text-white mt-4 mb-4 uppercase">Autonomous Pad</h4>
+                        <p class="text-xs text-gray-400 tracking-wider leading-relaxed">
+                            Secure, multi-vector private drone transport deck to carry you to close city centers instantly and discreetly.
+                        </p>
+                    </div>
+                    <div class="glass-card p-10 rounded-2xl border border-white/5 bg-black/30 backdrop-blur-md">
+                        <span class="text-luxury-gold font-cinzel text-xs uppercase tracking-widest">03 / Social</span>
+                        <h4 class="font-cinzel text-2xl tracking-wider text-white mt-4 mb-4 uppercase">Nebula Lounge</h4>
+                        <p class="text-xs text-gray-400 tracking-wider leading-relaxed">
+                            An exclusive observatory lounge featuring master mixology, private culinary suites, and astronomical panoramic displays.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FLOOR PLANS -->
+            <section id="floorplans" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Configuration</span>
+                        <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-6 uppercase">The Horizon Estate</h3>
+                        <p class="text-gray-300 text-sm tracking-wide leading-relaxed mb-8">
+                            A seamless sprawling floor plan featuring 18,500 square feet of curated glass architecture, triple height structural framing, and custom materials selected by hand from Italian quarries.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex justify-between border-b border-white/10 pb-2">
+                                <span class="text-xs text-gray-400 tracking-wider">Total Indoor Area</span>
+                                <span class="text-xs text-white tracking-widest font-cinzel">18,500 SQ FT</span>
+                            </div>
+                            <div class="flex justify-between border-b border-white/10 pb-2">
+                                <span class="text-xs text-gray-400 tracking-wider">Outdoor Deck Space</span>
+                                <span class="text-xs text-white tracking-widest font-cinzel">4,200 SQ FT</span>
+                            </div>
+                            <div class="flex justify-between border-b border-white/10 pb-2">
+                                <span class="text-xs text-gray-400 tracking-wider">Bedrooms</span>
+                                <span class="text-xs text-white tracking-widest font-cinzel">6 Grand Suites</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center items-center h-[400px] glass-card rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl overflow-hidden">
+                        <!-- Abstract Architectural Graphic -->
+                        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                        <div class="w-72 h-72 border border-luxury-gold/20 rounded-full flex items-center justify-center animate-[spin_60s_linear_infinite]">
+                            <div class="w-56 h-56 border border-white/10 rounded-full flex items-center justify-center">
+                                <div class="w-36 h-36 border border-luxury-gold/40 rounded-full"></div>
+                            </div>
+                        </div>
+                        <span class="absolute text-[10px] tracking-[0.5em] text-luxury-gold uppercase font-cinzel">Interactive Blueprints</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SMART LIVING & TECH -->
+            <section id="smartliving" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-5xl w-full text-center">
+                    <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Intelligence</span>
+                    <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-8 uppercase">A.I. Assisted Living</h3>
+                    <p class="text-gray-300 text-sm tracking-wide max-w-2xl mx-auto mb-16 leading-relaxed">
+                        A proprietary domestic operating system orchestrates lighting, air composition, and temperature settings according to circadian profiles, ensuring unparalleled wellness.
+                    </p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <div class="p-6 border border-white/10 bg-black/20 rounded-xl">
+                            <span class="text-2xl block mb-2">🌬️</span>
+                            <h4 class="font-cinzel text-xs tracking-wider text-luxury-gold mb-1">Purification</h4>
+                            <p class="text-[10px] text-gray-500">HEPA-H14 filtration</p>
+                        </div>
+                        <div class="p-6 border border-white/10 bg-black/20 rounded-xl">
+                            <span class="text-2xl block mb-2">👁️</span>
+                            <h4 class="font-cinzel text-xs tracking-wider text-luxury-gold mb-1">Bio-Security</h4>
+                            <p class="text-[10px] text-gray-500">Retinal-grade locks</p>
+                        </div>
+                        <div class="p-6 border border-white/10 bg-black/20 rounded-xl">
+                            <span class="text-2xl block mb-2">💡</span>
+                            <h4 class="font-cinzel text-xs tracking-wider text-luxury-gold mb-1">HCL System</h4>
+                            <p class="text-[10px] text-gray-500">Circadian rhythms</p>
+                        </div>
+                        <div class="p-6 border border-white/10 bg-black/20 rounded-xl">
+                            <span class="text-2xl block mb-2">🔇</span>
+                            <h4 class="font-cinzel text-xs tracking-wider text-luxury-gold mb-1">Acoustic Shield</h4>
+                            <p class="text-[10px] text-gray-500">Active noise dampening</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INVESTMENT & AWARDS -->
+            <section id="investment" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="glass-card p-10 md:p-16 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl">
+                        <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Legacy</span>
+                        <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-6 uppercase">Honors & Yield</h3>
+                        <p class="text-gray-300 text-sm tracking-wide leading-relaxed mb-8">
+                            Historically securing its position as the premier luxury development block globally, Aethelgard guarantees architectural integrity with stable, soaring assets.
+                        </p>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-4">
+                                <span class="text-2xl text-luxury-gold">🏆</span>
+                                <div>
+                                    <h4 class="font-cinzel text-xs tracking-widest text-white uppercase">Architectural Digest 2026</h4>
+                                    <p class="text-[10px] text-gray-500 tracking-wider">Design of the Century Award</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <span class="text-2xl text-luxury-gold">🏆</span>
+                                <div>
+                                    <h4 class="font-cinzel text-xs tracking-widest text-white uppercase">Global Green Council</h4>
+                                    <p class="text-[10px] text-gray-500 tracking-wider">Exceptional Net-Zero Structure</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INQUIRY / CONTACT -->
+            <section id="contact" class="min-h-screen py-32 px-6 flex items-center justify-center relative">
+                <div class="max-w-3xl w-full glass-card p-10 md:p-16 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl text-center">
+                    <span class="text-luxury-gold font-cinzel text-xs tracking-[0.4em] uppercase block mb-4">// Inquire</span>
+                    <h3 class="font-cinzel text-4xl md:text-5xl tracking-widest text-white mb-6 uppercase">Acquire the Horizon</h3>
+                    <p class="text-gray-400 text-xs tracking-widest uppercase mb-12">Private showings scheduled strictly upon credentials evaluation</p>
+                    
+                    <form class="space-y-8 text-left max-w-xl mx-auto" onsubmit="event.preventDefault();">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="border-b border-white/20 pb-2 focus-within:border-luxury-gold transition-colors duration-300">
+                                <label class="text-[9px] tracking-widest text-gray-500 uppercase block mb-1">Full Name</label>
+                                <input type="text" class="w-full bg-transparent border-none text-white text-sm outline-none focus:ring-0 placeholder-gray-700" placeholder="Aurelius Vance">
+                            </div>
+                            <div class="border-b border-white/20 pb-2 focus-within:border-luxury-gold transition-colors duration-300">
+                                <label class="text-[9px] tracking-widest text-gray-500 uppercase block mb-1">E-mail Address</label>
+                                <input type="email" class="w-full bg-transparent border-none text-white text-sm outline-none focus:ring-0 placeholder-gray-700" placeholder="aurelius@vance.inc">
+                            </div>
+                        </div>
+                        <div class="border-b border-white/20 pb-2 focus-within:border-luxury-gold transition-colors duration-300">
+                            <label class="text-[9px] tracking-widest text-gray-500 uppercase block mb-1">Private Message</label>
+                            <textarea rows="3" class="w-full bg-transparent border-none text-white text-sm outline-none focus:ring-0 placeholder-gray-700 resize-none" placeholder="Share your architectural preference..."></textarea>
+                        </div>
+                        <button class="w-full font-cinzel text-xs tracking-[0.3em] uppercase py-4 bg-luxury-gold text-luxury-dark font-bold hover:bg-luxury-goldLight transition duration-300 rounded shadow-lg shadow-luxury-gold/10">
+                            Request Private Dossier
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="py-12 px-6 border-t border-white/5 bg-black/60 backdrop-blur-md relative z-30">
+                <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+                    <span class="font-cinzel text-xl tracking-[0.3em] text-luxury-gold">AETHELGARD</span>
+                    <p class="text-[10px] tracking-widest text-gray-500 uppercase">&copy; 2026 Aethelgard Development Corp. All rights reserved.</p>
+                    <div class="flex gap-6 text-[10px] tracking-widest text-gray-400 uppercase">
+                        <a href="#" class="hover:text-luxury-gold transition">Privacy</a>
+                        <a href="#" class="hover:text-luxury-gold transition">Terms</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- Essential Libraries (ThreeJS + GSAP) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
 </body>
-
 </html>
